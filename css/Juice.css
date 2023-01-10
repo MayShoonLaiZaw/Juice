@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    font-size: 100%;
+    font-family: Comic Sans MS;
+}
+.container{
+    max-width: 1200px;
+    width: 65%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    cursor: pointer;
+}
+/* header start */
+
+.bg-img{
+    background-image: url(../image/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.juice-shop{
+    align-items: center;
+    padding-top: 2%;
+}
+.mobile-nav{
+    display:none;
+}
+.juice-shop .logo{
+    width: 70%;
+}
+.juice-shop .nav{
+    width: 30%;
+}
+.juice-shop .logo .logo-img{
+    width: 15%;
+    line-height: 0;
+}
+.juice-shop .logo .logo-img img{
+    width: 100%;
+}
+.juice-shop nav .nav-bar .dropdown{
+    width: 100%;
+}
+ .nav-bar .dropdown li{
+    list-style: none;
+    width: 25%;
+}
+.juice-shop nav .nav-bar .dropdown li:nth-child(2){
+    width: 35%;
+}
+ nav .nav-bar .dropdown li a{
+    color: #fff;
+    text-decoration: none;
+}
+.juiceshop-header{
+    width: 50%;
+    color:#fff;
+    padding: 10% 0;
+}
+.juiceshop-header h1{
+    width: 100%;
+    font-size: 55px;
+}
+.juiceshop-header h2{
+    width: 100%;
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+.juiceshop-header p{
+    width: 100%;
+    padding-bottom: 8%;
+    line-height: 25px;
+}
+.constant{
+    padding: 3% 10%;
+    border:none;
+    color: orange;
+    font-family: Cambria;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* header end */
+/* About us start */
+.bg-image{
+    background-image: url(../image/bg_01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-us{
+    width: 50%;
+    position: relative;
+    left: 45%;
+    padding: 15% 0;
+}
+.about-us h2{
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+.about-us h2 a{
+    color: orange;
+    text-decoration: none;
+}
+.about-us p{
+    line-height: 20px;
+    color:grey;
+    padding-bottom: 7%;
+}
+.constant1{
+    padding: 3% 10%;
+    border:none;
+    color: #fff;
+    background-color: orange;
+    font-family: Cambria;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* About us end */
+
+/* contact start */
+.contact{
+    width: 100%;
+    padding: 8% 0 12%;
+
+}
+.contact .contact-form,.fruid-img{
+    width: 50%;
+}
+.contact .contact-form h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5%;
+
+}
+.contact .contact-form .mother-form{
+    width: 80%;
+    border: 1px solid lightgray;
+    padding: 8%;
+    border-radius: 8%;
+    background-color: rgb(224, 222, 222);
+    margin: 0 auto;
+}
+.contact .contact-form .mother-form #first,#second,#third{
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 2% 0% 2% 3%;
+    border:1px solid #fff;
+}
+#fourth{
+    width: 100%;
+    margin-bottom: 13%;
+    padding: 2% 0% 2% 3%;
+    border:1px solid #fff;
+    height: 100px;
+}
+.constant2{
+    padding: 3% 10%;
+    border:none;
+    color: #fff;
+    background-color: orangered;
+    font-family: Cambria;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    left: 35%;
+    text-transform: uppercase;
+}
+.fruid{
+    width: 50%;
+}
+.fruid .fruid-img{
+    width: 100%;
+    line-height: 0;
+}
+.fruid .fruid-img img{
+    width: 100%;
+}
+/* contact end */
+
+/* juice start */
+.bg-color{
+    background: linear-gradient(orangered,orange);
+}
+.para-flex{
+    width: 80%;
+    margin-left: auto;
+}
+.para-img{
+    width: 93%;
+    padding: 7% 0%;
+}
+.para-img .photo{
+    width: 58%;
+} 
+.para-img .para{
+    width: 40%;
+    color: #fff;
+}
+ .para-img .para h2{
+     width: 100%;
+    padding-top: 14%;
+    font-family: Comic Sans MS;
+    font-size: 28px;
+    padding-bottom: 5%;
+}
+.para-img .para p{
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.constant3{
+    margin-top: 10%;
+    padding: 3% 10%;
+    border:none;
+    background-color: #fff;
+    color: grey;
+    font-family: Cambria;
+    font-size: 12px;
+    font-weight: bold;
+}
+.para-img .photo .photo-img{
+    width: 100%;
+    line-height: 0;
+}
+.para-img .photo .photo-img img{
+    width: 100%;
+}
+/* juice end */
+
+/* testimonial start */
+.bg-gallery{
+    background-image: url(../image/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial{
+    width: 100%;
+    margin: 0 auto;
+    color: grey;
+    padding: 5% 0;
+}
+.testimonial .testimonial-header{
+    text-align: center;
+    padding-bottom: 13%;
+}
+.testimonial .testimonial-header h1{
+    width: 100%;
+    font-size: 30px;
+} 
+.testimonial .testimonial-header p{
+    width: 100%;
+    font-size: 10px;
+}
+.testimonial .testimonial-para{
+    width: 100%;
+    background-color: #fff;
+}
+.testimonial .testimonial-para .testimonial-img{
+    width: 16%;
+    margin: 0 auto;
+    position: relative;
+    bottom:60px;
+    line-height: 0;
+}
+.testimonial .testimonial-para .testimonial-img img{
+    width: 100%;
+}
+.testimonial .testimonial-para .testimonial-p{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 50px; 
+    font-size: 13px;
+    /* background-color: #fff; */
+}
+.testimonial .testimonial-para .testimonial-p h4{
+    font-size: 20px;   
+    padding-bottom: 5px;
+}
+.testimonial .testimonial-para .testimonial-p hr{
+    width: 15%;
+    margin: 0 auto;
+    border: 1px solid rgb(182, 179, 179);   
+}
+.testimonial .testimonial-para .testimonial-p p{
+    padding-top: 18px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* testimonial end */
+
+/* footer start */
+.bg-color1{
+    background-color: rgb(51, 49, 49);
+}
+.footer-para{
+    color:#fff;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+}
+.footer-para h2{
+    text-transform: capitalize;
+    padding-bottom: 3%;
+}
+.footer-para h2 a{
+    text-decoration: none;
+    color: orangered;
+}
+.footer-para p{
+    width: 50%;
+    margin: 0 auto;
+    color: lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-para hr{
+    margin-top: 3%;
+    border: 1px solid rgb(80, 78, 78);
+    margin-bottom: 1%;
+}
+/* footer end */
+
+/* responsive start */
+@media (max-width:768px)
+{
+    .flex-container{
+        display: block;
+    }
+    .container{
+        width: 90%;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .juice-shop{
+        display: none;
+    }
+    .mobile-nav .logo {
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-nav .logo .logo-img,.logo-icon{
+        width: 50%;
+    }
+    .bg-img {
+        background-position: right;
+    }
+    .mobile-nav .logo-icon i{
+        float: right;
+        font-size: 30px;
+        color: #fff;
+    }
+    .mobile-nav .nav {
+        width: 100%;
+        padding-top: 5%;
+    }
+    .mobile-nav nav .nav-bar .dropdown{
+        background-color: #3338;
+    }
+    .mobile-nav nav .nav-bar .dropdown li {
+        width: 100%;
+        line-height: 30px;
+        padding-left: 10%;
+    }
+    .mobile-nav nav .nav-bar .dropdown li:nth-child(2) {
+        width: 100%;
+    }
+    .juiceshop-header {
+        width: 100%;
+        text-shadow: 1px 1px 5px #000;
+        padding: 20% 0;
+    }
+    .juiceshop-header h1 {
+        font-size: 27px;
+    }
+    .juiceshop-header h2 {
+        font-size: 17px;
+        padding-bottom: 5%;
+    }
+    .bg-image {
+        background-position: left;
+    }
+    .about-us {
+        width: 100%;
+        left: 0%;
+        top: 0px;
+        padding: 30% 0;
+        text-shadow: 0px 0px 5px #fff;
+    }
+    .about-us h2 {
+        padding-bottom: 5%;
+        font-size: 20px;
+    }
+    .contact .contact-form, .fruid-img {
+        width: 100%;
+    }
+    .contact .contact-form .mother-form {
+        width: 100%;
+    }
+    .constant2 {
+        padding: 5% 10%;
+        border-radius: 4px;
+        font-size: 15px;
+        left: 30%;
+    }
+    .fruid {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .para-flex {
+        width: 100%;
+        padding:0% 10%;
+    }
+    .para-img {
+        width: 100%;
+        margin-bottom: 0%;
+        padding: 15% 0;
+    }
+    .para-img .para {
+        width: 100%;
+    }
+    .para-img .para h2 {
+        width: 100%;
+        padding-top: 14%;
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+    .para-img .para p {
+        line-height: 25px;
+        font-size: 13px;
+        text-align: justify;
+    }
+    .constant3 {
+        margin: 5% 0%;
+        padding: 5% 13%;
+    }
+    .para-img .photo {
+        width: 100%;
+    }
+    .bg-color {
+        margin-bottom: 5%;
+    }
+    .bg-gallery{
+
+        padding: 10% 0;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .testimonial .testimonial-para .testimonial-img {
+        width: 80%;
+        bottom: 0px;
+    }
+    .testimonial .testimonial-para .testimonial-p {
+        bottom: 0px;
+    }
+    .testimonial .testimonial-para .testimonial-p p {
+        padding-top: 18px;
+        width: 100%;
+    }
+    .footer-para {
+        color: #fff;
+        margin-top: 5%;
+        padding-bottom: 0;
+        text-align: center;
+        width: 100%;
+        /* height: 250px; */
+    }
+    .footer-para h2 {
+        font-size: 18px;
+        padding-bottom: 3%;
+    }
+    .footer-para p {
+        width: 100%;
+        padding: 3% 0%;
+    }
+}
+/* responsive end */
